@@ -5,9 +5,8 @@
 ### Demo 1：手动选择参考点
 #### 运行
 ~~~
-cd display/ivrc_ws
 catkin build path_optimizer
-roslaunch path_optimizer pati_optimizer_demo
+roslaunch path_optimizer demo.launch
 ~~~
 #### 使用Publish Point工具选择参考路径点 
 如果想重新选择，在使用Publish Point工具的情况下任意位置双击即可。   
